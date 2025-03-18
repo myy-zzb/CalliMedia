@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/new_add_bg0_00"
+        >
+        <ImageButton
+            android:id="@+id/begin_resiger"
+            android:layout_width="172dp"
+            android:layout_height="35dp"
+            android:layout_marginStart="314dp"
+            android:layout_marginTop="180dp"
+            android:layout_alignParentStart="true"
+            android:background="@drawable/sign_in_00"
+            />
+        <ImageButton
+            android:id="@+id/begin_login"
+            android:layout_width="172dp"
+            android:layout_height="35dp"
+            android:layout_below="@id/begin_resiger"
+            android:layout_alignStart="@id/begin_resiger"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/log_in_00"
+            />
+        
+        
+        
+        
+    </RelativeLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Class_management">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+        >
+        
+        <ImageView
+            android:id="@+id/Class_list"
+            android:layout_width="178dp"
+            android:layout_height="232dp"
+            android:layout_marginStart="99dp"
+            android:background="@drawable/class_mgt_1_04"/>
+        
+
+
+        <ImageView
+            android:id="@+id/Grouping_of_students"
+            android:layout_width="178dp"
+            android:layout_height="110dp"
+            android:background="@drawable/class_mgt_2_04"
+            android:layout_marginStart="314dp"/>
+
+        <ImageView
+            android:id="@+id/Student_marker"
+            android:layout_width="178dp"
+            android:layout_height="110dp"
+            android:background="@drawable/class_mgt_3_04"
+            android:layout_marginTop="122dp"
+            android:layout_marginStart="314dp"/>
+
+
+
+
+        <ImageView
+            android:id="@+id/Class_transfer"
+            android:layout_width="178dp"
+            android:layout_height="232dp"
+            android:layout_marginStart="529dp"
+            android:background="@drawable/class_mgt_4_04"/>
+
+
+
+    </RelativeLayout>
+
+
+
+</FrameLayout>

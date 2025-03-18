@@ -1,0 +1,461 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".pipei_2">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/body_05_4"
+        android:layout_marginTop="25dp">
+        <ImageView
+            android:layout_width="543dp"
+            android:layout_height="253dp"
+            android:background="@drawable/body2_05_4_1_1"
+            android:layout_marginTop="41dp"
+            android:layout_marginStart="17dp"/>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/bg_left_05_4_2_2"
+            android:layout_marginTop="93dp"
+            android:layout_marginStart="29dp"/>
+
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/bg_right_05_4_2_2"
+            android:layout_marginTop="93dp"
+            android:layout_marginStart="146dp"/>
+
+        <TextView
+            android:layout_width="60dp"
+            android:layout_height="17dp"
+            android:textSize="12sp"
+            android:textColor="#ff000000"
+            android:text="你的答案："
+            android:layout_marginTop="67dp"
+            android:layout_marginStart="34dp" />
+
+        <TextView
+            android:layout_width="60dp"
+            android:layout_height="17dp"
+            android:textSize="12sp"
+            android:textColor="#ff000000"
+            android:text="正确答案："
+            android:layout_marginTop="67dp"
+            android:layout_marginStart="146dp"/>
+
+        
+        
+        <ImageView
+            android:id="@+id/pipie_a_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/pipei_a"
+            android:layout_marginTop="108dp"
+            android:layout_marginStart="157dp"/>
+
+        <ImageView
+            android:id="@+id/pipie_a_2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/pipei_a"
+            android:layout_marginTop="108dp"
+            android:layout_marginStart="257dp"/>
+        <ImageView
+            android:id="@+id/pipie_a_3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/pipei_a"
+            android:layout_marginTop="108dp"
+            android:layout_marginStart="357dp"/>
+        <ImageView
+            android:id="@+id/pipie_a_4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/pipei_a"
+            android:layout_marginTop="108dp"
+            android:layout_marginStart="457dp"/>
+        
+        <ImageView
+            android:id="@+id/pipie_b_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/pipei_b"
+            android:layout_marginTop="224dp"
+            android:layout_marginStart="222dp"/>
+        <ImageView
+            android:id="@+id/pipie_b_2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/pipei_b"
+            android:layout_marginTop="224dp"
+            android:layout_marginStart="289dp"/>
+        <ImageView
+            android:id="@+id/pipie_b_3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/pipei_b"
+            android:layout_marginTop="224dp"
+            android:layout_marginStart="356dp"/>
+        <ImageView
+            android:id="@+id/pipie_b_4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/pipei_b"
+            android:layout_marginTop="224dp"
+            android:layout_marginStart="423dp"/>
+
+        
+        <ImageView
+            android:id="@+id/pipie_c_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/pipei_c"
+            android:layout_marginTop="97dp"
+            android:layout_marginStart="34dp"/>
+        <ImageView
+            android:id="@+id/pipie_c_2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/pipei_c"
+            android:layout_marginTop="147dp"
+            android:layout_marginStart="34dp"/>
+        <ImageView
+            android:id="@+id/pipie_c_3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/pipei_c"
+            android:layout_marginTop="197dp"
+            android:layout_marginStart="34dp"/>
+        <ImageView
+            android:id="@+id/pipie_c_4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/pipei_c"
+            android:layout_marginTop="247dp"
+            android:layout_marginStart="34dp"/>
+
+        <ImageView
+            android:id="@+id/pipie_d_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/pippei_d"
+            android:layout_marginTop="121dp"
+            android:layout_marginStart="94dp"/>
+        <ImageView
+            android:id="@+id/pipie_d_2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/pippei_d"
+            android:layout_marginTop="160dp"
+            android:layout_marginStart="94dp"/>
+        <ImageView
+            android:id="@+id/pipie_d_3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/pippei_d"
+            android:layout_marginTop="200dp"
+            android:layout_marginStart="94dp"/>
+        <ImageView
+            android:id="@+id/pipie_d_4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/pippei_d"
+            android:layout_marginTop="240dp"
+            android:layout_marginStart="94dp"/>
+        
+
+        <ImageView
+            android:id="@+id/pipei_line_a_1_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/line_right_you_1_1"
+            android:layout_marginTop="148dp"
+            android:layout_marginStart="197dp"/>
+        <ImageView
+            android:id="@+id/pipei_line_a_1_2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/line_right_you_1_2"
+            android:layout_marginTop="148dp"
+            android:layout_marginStart="197dp"/>
+        <ImageView
+            android:id="@+id/pipei_line_a_1_3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/line_right_you_1_3"
+            android:layout_marginTop="148dp"
+            android:layout_marginStart="197dp"/>
+        <ImageView
+            android:id="@+id/pipei_line_a_1_4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/line_right_you_1_4"
+            android:layout_marginTop="148dp"
+            android:layout_marginStart="197dp"/>
+
+
+
+        <ImageView
+            android:id="@+id/pipei_line_a_2_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/line_right_you_2_1"
+            android:layout_marginTop="148dp"
+            android:layout_marginStart="246dp"/>
+        <ImageView
+            android:id="@+id/pipei_line_a_2_2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/line_right_you_2_2"
+            android:layout_marginTop="148dp"
+            android:layout_marginStart="297dp"/>
+        <ImageView
+            android:id="@+id/pipei_line_a_2_3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/line_right_you_2_3"
+            android:layout_marginTop="148dp"
+            android:layout_marginStart="297dp"/>
+        <ImageView
+            android:id="@+id/pipei_line_a_2_4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/line_right_you_2_4"
+            android:layout_marginTop="148dp"
+            android:layout_marginStart="297dp"/>
+
+
+        <ImageView
+            android:id="@+id/pipei_line_a_3_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/line_right_you_3_1"
+            android:layout_marginTop="148dp"
+            android:layout_marginStart="246dp"/>
+        <ImageView
+            android:id="@+id/pipei_line_a_3_2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/line_right_you_3_2"
+            android:layout_marginTop="148dp"
+            android:layout_marginStart="313dp"/>
+        <ImageView
+            android:id="@+id/pipei_line_a_3_3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/line_right_you_3_3"
+            android:layout_marginTop="148dp"
+            android:layout_marginStart="380dp"/>
+        <ImageView
+            android:id="@+id/pipei_line_a_3_4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/line_right_you_3_4"
+            android:layout_marginTop="148dp"
+            android:layout_marginStart="397dp"/>
+
+
+        <ImageView
+            android:id="@+id/pipei_line_a_4_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/line_right_you_4_1"
+            android:layout_marginTop="148dp"
+            android:layout_marginStart="246dp"/>
+        <ImageView
+            android:id="@+id/pipei_line_a_4_2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/line_right_you_4_2"
+            android:layout_marginTop="148dp"
+            android:layout_marginStart="313dp"/>
+        <ImageView
+            android:id="@+id/pipei_line_a_4_3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/line_right_you_4_3"
+            android:layout_marginTop="148dp"
+            android:layout_marginStart="380dp"/>
+        <ImageView
+            android:id="@+id/pipei_line_a_4_4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/line_right_you_4_4"
+            android:layout_marginTop="148dp"
+            android:layout_marginStart="447dp"/>
+
+
+
+
+        <ImageView
+            android:id="@+id/pipei_line_b_1_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/line_right_zuo_1_1"
+            android:layout_marginTop="114.5dp"
+            android:layout_marginStart="51.5dp"/>
+        <ImageView
+            android:id="@+id/pipei_line_b_1_2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/line_right_zuo_1_2"
+            android:layout_marginTop="114.5dp"
+            android:layout_marginStart="51.5dp"/>
+        <ImageView
+            android:id="@+id/pipei_line_b_1_3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/line_right_zuo_1_3"
+            android:layout_marginTop="114.5dp"
+            android:layout_marginStart="51.5dp"/>
+        <ImageView
+            android:id="@+id/pipei_line_b_1_4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/line_right_zuo_1_4"
+            android:layout_marginTop="114.5dp"
+            android:layout_marginStart="51.5dp"/>
+
+
+
+        <ImageView
+            android:id="@+id/pipei_line_b_2_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/line_right_zuo_2_1"
+            android:layout_marginTop="131.5dp"
+            android:layout_marginStart="51.5dp"/>
+        <ImageView
+            android:id="@+id/pipei_line_b_2_2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/line_right_zuo_2_2"
+            android:layout_marginTop="164.5dp"
+            android:layout_marginStart="51.5dp"/>
+        <ImageView
+            android:id="@+id/pipei_line_b_2_3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/line_right_zuo_2_3"
+            android:layout_marginTop="164.5dp"
+            android:layout_marginStart="51.5dp"/>
+        <ImageView
+            android:id="@+id/pipei_line_b_2_4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/line_right_zuo_2_4"
+            android:layout_marginTop="164.5dp"
+            android:layout_marginStart="51.5dp"/>
+
+
+        <ImageView
+            android:id="@+id/pipei_line_b_3_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/line_right_zuo_3_1"
+            android:layout_marginTop="131.5dp"
+            android:layout_marginStart="51.5dp"/>
+        <ImageView
+            android:id="@+id/pipei_line_b_3_2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/line_right_zuo_3_2"
+            android:layout_marginTop="170.5dp"
+            android:layout_marginStart="51.5dp"/>
+        <ImageView
+            android:id="@+id/pipei_line_b_3_3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/line_right_zuo_3_3"
+            android:layout_marginTop="209.5dp"
+            android:layout_marginStart="51.5dp"/>
+        <ImageView
+            android:id="@+id/pipei_line_b_3_4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/line_right_zuo_3_4"
+            android:layout_marginTop="214.5dp"
+            android:layout_marginStart="51.5dp"/>
+
+
+
+
+        <ImageView
+            android:id="@+id/pipei_line_b_4_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/line_right_zuo_4_1"
+            android:layout_marginTop="131.5dp"
+            android:layout_marginStart="51.5dp"/>
+        <ImageView
+            android:id="@+id/pipei_line_b_4_2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/line_right_zuo_4_2"
+            android:layout_marginTop="170.5dp"
+            android:layout_marginStart="51.5dp"/>
+        <ImageView
+            android:id="@+id/pipei_line_b_4_3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/line_right_zuo_4_3"
+            android:layout_marginTop="209.5dp"
+            android:layout_marginStart="51.5dp"/>
+        <ImageView
+            android:id="@+id/pipei_line_b_4_4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/line_right_zuo_4_4"
+            android:layout_marginTop="248.5dp"
+            android:layout_marginStart="51.5dp"/>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        
+        <include
+            android:id="@+id/bihua_tanchuang"
+            layout="@layout/tanchuang"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="58dp"
+            android:layout_marginStart="408dp" />
+
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/pace_05_4"
+            android:layout_marginTop="58dp"
+            android:layout_marginStart="481dp"/>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/xiala_05_4"
+            android:layout_marginTop="73dp"
+            android:layout_marginStart="503dp"/>
+    </RelativeLayout>
+
+
+</RelativeLayout>

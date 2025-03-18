@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:ignore="MissingConstraints">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/jiafen_bg"
+        android:layout_marginTop="117dp"
+        android:layout_marginStart="260dp"/>
+
+
+
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/jiafen_title"
+        android:layout_marginTop="117dp"
+        android:layout_marginStart="260dp"/>
+
+
+    <ImageButton
+        android:id="@+id/jiafen_close"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:background="@drawable/close_06_3_1_1"
+        android:layout_marginTop="119dp"
+        android:layout_marginStart="386dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="12sp"
+        android:textColor="#ffffffff"
+        android:text="加分"
+        android:layout_marginTop="121dp"
+        android:layout_marginStart="324dp"/>
+
+
+    <ImageButton
+        android:id="@+id/jiayifen"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/jiafen_bt"
+        android:layout_marginTop="155dp"
+        android:layout_marginStart="272dp"/>
+    <TextView
+        android:layout_width="46dp"
+        android:layout_height="28dp"
+        android:textSize="10sp"
+        android:textColor="#FFFFFF"
+        android:text="加一分"
+        android:layout_marginTop="155dp"
+        android:layout_marginStart="272dp"
+        android:gravity="center"
+        />
+
+    <ImageButton
+        android:id="@+id/jiaerfen"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/jiafen_bt"
+        android:layout_marginTop="155dp"
+        android:layout_marginStart="354dp"/>
+    <TextView
+        android:layout_width="46dp"
+        android:layout_height="28dp"
+        android:textSize="10sp"
+        android:textColor="#FFFFFF"
+        android:text="加二分"
+        android:layout_marginTop="155dp"
+        android:layout_marginStart="354dp"
+        android:gravity="center"
+        />
+
+    <ImageButton
+        android:id="@+id/jiasanfen"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/jiafen_bt"
+        android:layout_marginTop="200dp"
+        android:layout_marginStart="272dp"/>
+    <TextView
+        android:layout_width="46dp"
+        android:layout_height="28dp"
+        android:textSize="10sp"
+        android:textColor="#FFFFFF"
+        android:text="加三分"
+        android:layout_marginTop="200dp"
+        android:layout_marginStart="272dp"
+        android:gravity="center"
+        />
+
+
+    <ImageButton
+        android:id="@+id/zidingyi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/jiafen_bt"
+        android:layout_marginTop="200dp"
+        android:layout_marginStart="354dp"/>
+
+    <TextView
+        android:layout_width="46dp"
+        android:layout_height="28dp"
+        android:textSize="10sp"
+        android:textColor="#FFFFFF"
+        android:text="加四分"
+        android:layout_marginTop="200dp"
+        android:layout_marginStart="354dp"
+        android:gravity="center"
+        />
+
+
+
+
+</RelativeLayout>

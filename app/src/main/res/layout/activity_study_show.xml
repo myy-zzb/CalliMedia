@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".study_show"
+    tools:ignore="MissingDefaultResource">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/new_add_bg2_05"
+        >
+
+        <ImageButton
+            android:id="@+id/study_show_return"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginStart="740dp"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/icon_return" />
+
+
+
+        <ImageView
+            android:layout_width="111dp"
+            android:layout_height="38.8dp"
+            android:background="@drawable/profile_all"
+            android:layout_marginTop="8dp"
+            android:layout_marginStart="12dp"/>
+
+
+        <ImageButton
+            android:id="@+id/study_1"
+            android:layout_width="40dp"
+            android:layout_height="80dp"
+            android:background="@drawable/ketanglianxi_07_1_1"
+            android:layout_marginTop="57dp"
+            android:layout_marginStart="703dp"/>
+
+        <ImageButton
+            android:id="@+id/study_2"
+            android:layout_width="40dp"
+            android:layout_height="80dp"
+            android:background="@drawable/kehouzuoye_07_1_1"
+            android:layout_marginTop="142dp"
+            android:layout_marginStart="703dp"/>
+
+        <ImageButton
+            android:id="@+id/study_3"
+            android:layout_width="40dp"
+            android:layout_height="80dp"
+            android:background="@drawable/youxiuzhanshi_07_1_1"
+            android:layout_marginTop="227dp"
+            android:layout_marginStart="703dp"/>
+
+
+        <ImageView
+            android:layout_width="570dp"
+            android:layout_height="289dp"
+            android:background="@drawable/new_add_07_1_1"
+            android:layout_marginTop="33dp"
+            android:layout_marginStart="133dp"/>
+
+        <ImageView
+            android:layout_width="126dp"
+            android:layout_height="266dp"
+            android:src="@color/white"
+            android:alpha="0.83"
+            android:layout_marginTop="45dp"
+            android:layout_marginStart="145dp"/>
+
+
+        <ImageView
+            android:layout_width="107dp"
+            android:layout_height="266dp"
+            android:background="#F1EDEC"
+            android:layout_marginTop="45dp"
+            android:layout_marginStart="271dp"/>
+
+
+        <ImageView
+            android:layout_width="312dp"
+            android:layout_height="266dp"
+            android:layout_marginStart="378dp"
+            android:layout_marginTop="45dp"
+            android:background="@color/white"
+            android:alpha="0.78"
+            />
+
+
+        <com.github.chrisbanes.photoview.PhotoView
+            android:id="@+id/study_photo"
+            android:layout_width="312dp"
+            android:layout_height="266dp"
+            android:layout_marginStart="378dp"
+            android:layout_marginTop="45dp"
+            />
+
+        <FrameLayout
+            android:id="@+id/fr_left"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="45dp"
+            android:layout_marginStart="145dp"/>
+
+        <FrameLayout
+            android:id="@+id/fr_middle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="45dp"
+            android:layout_marginStart="271dp"/>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/search__07_1_1"
+            android:layout_marginTop="62dp"
+            android:layout_marginStart="148dp"/>
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/study_re1"
+            android:layout_width="wrap_content"
+            android:layout_height="200dp"
+            android:layout_marginTop="99dp"
+            android:layout_marginStart="145dp"/>
+
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/study_re2"
+            android:layout_width="wrap_content"
+            android:layout_height="200dp"
+            android:layout_marginTop="101dp"
+            android:layout_marginStart="154dp"/>
+
+        
+        <ImageButton
+            android:id="@+id/study_1_bt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/name_07_1_1"
+            android:layout_marginTop="62dp"
+            android:layout_marginStart="283dp"/>
+
+
+        <LinearLayout
+            android:layout_width="83dp"
+            android:layout_height="53dp"
+            android:layout_marginTop="62dp"
+            android:layout_marginStart="283dp"
+            android:gravity="center">
+
+
+            <TextView
+                android:id="@+id/study_1_tv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="14sp"
+                android:textColor="#ff000000"
+                android:text="姓名"
+                />
+
+
+        </LinearLayout>
+
+
+
+        <ImageButton
+            android:id="@+id/study_add"
+            android:layout_width="83dp"
+            android:layout_height="31dp"
+            android:background="@drawable/add_score_07_1_1"
+            android:layout_marginTop="169dp"
+            android:layout_marginStart="283dp"/>
+
+        <ImageButton
+            android:id="@+id/study_choose"
+            android:layout_width="83dp"
+            android:layout_height="31dp"
+            android:background="@drawable/choose_07_1_1"
+            android:layout_marginTop="216dp"
+            android:layout_marginStart="283dp"/>
+
+        <ImageButton
+            android:id="@+id/study_last"
+            android:layout_width="32dp"
+            android:layout_height="32dp"
+            android:background="@drawable/previous_07_1_1"
+            android:layout_marginTop="259dp"
+            android:layout_marginStart="286dp"/>
+
+        <ImageButton
+            android:id="@+id/study_next"
+            android:layout_width="32dp"
+            android:layout_height="32dp"
+            android:background="@drawable/next_07_1_1"
+            android:layout_marginTop="259dp"
+            android:layout_marginStart="331dp"/>
+
+        <ImageButton
+            android:id="@+id/study_2_bt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/ketanglianxi_title_07_1_3"
+            android:layout_marginTop="62dp"
+            android:layout_marginStart="283dp"/>
+
+
+
+        <LinearLayout
+            android:layout_width="83dp"
+            android:layout_height="28dp"
+            android:layout_marginTop="62dp"
+            android:layout_marginStart="283dp"
+            android:gravity="center">
+
+
+
+            <TextView
+                android:id="@+id/study_2_tv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="10sp"
+                android:textColor="#ff000000"
+                android:text="240812课堂练习" />
+
+
+
+        </LinearLayout>
+
+
+    </RelativeLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

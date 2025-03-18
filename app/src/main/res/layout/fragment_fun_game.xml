@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Fun_game">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        >
+        <ImageView
+            android:layout_marginTop="25dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/body_05_1_1"/>
+        <ImageButton
+            android:id="@+id/begin_bihua"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/bihuawenda_05_4"
+            android:layout_marginTop="141dp"
+            android:layout_marginStart="245dp"/>
+        <ImageButton
+            android:id="@+id/begin_pipei"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/pipeiyouxi_05_4"
+            android:layout_marginTop="192dp"
+            android:layout_marginStart="245dp"/>
+
+    </RelativeLayout>
+
+</FrameLayout>

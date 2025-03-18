@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+
+
+        <ImageView
+            android:id="@+id/white_bg"
+            android:layout_width="83dp"
+            android:layout_height="28dp"
+            android:background="@color/white"/>
+
+        <TextView
+            android:id="@+id/class_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="12sp"
+            android:text="班级名单"
+            android:layout_gravity="center"/>
+
+
+
+</FrameLayout>

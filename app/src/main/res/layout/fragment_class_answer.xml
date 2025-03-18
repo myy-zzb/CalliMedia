@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Class_answer"
+    >
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        >
+        <ImageView
+            android:layout_marginTop="25dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/body_05_1_1"/>
+
+        <ImageButton
+            android:layout_width="74dp"
+            android:layout_height="19dp"
+            android:layout_marginTop="45dp"
+            android:layout_marginStart="496dp"
+            android:background="@drawable/bt_huida_01"/>
+
+        <ImageButton
+
+            android:layout_width="74dp"
+            android:layout_height="19dp"
+            android:layout_marginTop="70dp"
+            android:layout_marginStart="496dp"
+            android:background="@drawable/bt_huida_02"/>
+        <ImageButton
+            android:layout_width="74dp"
+            android:layout_height="19dp"
+            android:layout_marginTop="95dp"
+            android:layout_marginStart="496dp"
+            android:background="@drawable/bt_huida_03"/>
+        <ImageButton
+            android:layout_width="74dp"
+            android:layout_height="19dp"
+            android:layout_marginTop="120dp"
+            android:layout_marginStart="496dp"
+            android:background="@drawable/bt_huida_04"/>
+        <GridView
+            android:background="#F7F3ED"
+            android:id="@+id/jiafen_gridview"
+            android:layout_width="327dp"
+            android:layout_height="194dp"
+            android:layout_marginTop="70dp"
+            android:layout_marginStart="31dp"
+            android:numColumns="4" />
+
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/buzhidao"
+            android:layout_marginTop="46dp"
+            android:layout_marginStart="367dp"/>
+
+        <ImageView
+            android:id="@+id/bt_suiji"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/anniubeijing"
+            android:layout_marginTop="219dp"
+            android:layout_marginStart="388dp"/>
+
+        <TextView
+            android:layout_width="24dp"
+            android:layout_height="17dp"
+            android:textSize="12sp"
+            android:textColor="#ffffffff"
+            android:text="开始"
+            android:layout_marginTop="225.5dp"
+            android:layout_marginStart="409dp"/>
+
+
+        <ImageButton
+            android:id="@+id/jiafen"
+            android:layout_width="83dp"
+            android:layout_height="31dp"
+            android:background="@drawable/add_score_05_3_2_3"
+            android:layout_marginTop="285dp"
+            android:layout_marginStart="153dp"/>
+        <ImageView
+            android:layout_width="75dp"
+            android:layout_height="71dp"
+            android:background="@drawable/chatu"
+            android:layout_marginTop="252dp"
+            android:layout_marginStart="495dp"/>
+
+
+        <include layout="@layout/biaoji_1_grid_item"
+            android:id="@+id/suijijiafen"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="120dp"
+            android:layout_marginStart="390dp"/>
+
+
+    </RelativeLayout>
+
+</FrameLayout>

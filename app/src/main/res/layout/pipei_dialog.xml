@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <ImageView
+        android:layout_width="244dp"
+        android:layout_height="202dp"
+        android:layout_marginStart="301dp"
+        android:layout_marginTop="84dp"
+        android:background="@drawable/bg_tanchuang_06_3_1_1"
+
+        />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/title_tanchaung_05_4_1_1"
+        android:layout_marginTop="84dp"
+        android:layout_marginStart="301dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:textColor="#ffdcdcdc"
+        android:text="添加标签进行内容筛选"
+        android:layout_marginTop="115dp"
+        android:layout_marginStart="314dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="7sp"
+        android:textColor="#ffdcdcdc"
+        android:text="已添加1个标签，还可添加2个。"
+        android:layout_marginTop="140dp"
+        android:layout_marginStart="314dp"/>
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/biaoqian"
+        android:layout_marginTop="159dp"
+        android:layout_marginStart="314dp"/>
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/biaoqian"
+        android:layout_marginTop="159dp"
+        android:layout_marginStart="370dp"/>
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/biaoqian"
+        android:layout_marginTop="159dp"
+        android:layout_marginStart="426dp"/>
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/biaoqian"
+        android:layout_marginTop="159dp"
+        android:layout_marginStart="482dp"/>
+
+    <ImageButton
+        android:id="@+id/pipei_assure"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/button_assure_icon_05_4_1_1"
+        android:layout_marginTop="264dp"
+        android:layout_marginStart="493dp"/>
+
+</RelativeLayout>

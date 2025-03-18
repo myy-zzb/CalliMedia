@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Cloud_resource">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        >
+        <ImageView
+            android:layout_width="420dp"
+            android:layout_height="310dp"
+            android:layout_marginTop="25dp"
+            android:src="@drawable/xixihaha"
+            android:alpha="92"/>
+        <ImageView
+            android:id="@+id/left"
+            android:layout_width="420dp"
+            android:layout_height="310dp"
+            android:layout_marginTop="25dp"
+            android:background="@drawable/frame_left_05_2" />
+
+        <ImageView
+            android:layout_width="160dp"
+            android:layout_height="310dp"
+            android:layout_marginLeft="3dp"
+            android:layout_marginTop="25dp"
+            android:layout_toRightOf="@+id/left"
+            android:alpha="0.5"
+            android:src="@drawable/frame_right_05_2" />
+
+        <ImageButton
+            android:id="@+id/mingjiazuopin"
+            android:layout_width="146dp"
+            android:layout_height="58dp"
+            android:layout_marginStart="7dp"
+            android:background="@drawable/mingjiazuop_05_2"
+            android:layout_marginTop="85dp"
+            android:layout_toRightOf="@+id/left"/>
+
+        <ImageButton
+            android:id="@+id/jiaoxueshipin"
+            android:layout_width="146dp"
+            android:layout_height="58dp"
+            android:layout_marginStart="7dp"
+            android:background="@drawable/jiaoxueship_05_2"
+            android:layout_marginTop="143dp"
+            android:layout_toRightOf="@+id/left"/>
+
+        <ImageButton
+            android:id="@+id/zitiezhanshi"
+            android:layout_width="146dp"
+            android:layout_height="58dp"
+            android:layout_marginStart="7dp"
+            android:background="@drawable/zitiezhans_05_2"
+            android:layout_marginTop="201dp"
+            android:layout_toRightOf="@+id/left"/>
+
+
+        <ImageButton
+            android:layout_width="146dp"
+            android:layout_height="58dp"
+            android:layout_marginStart="7dp"
+            android:background="@drawable/lishijil_05_2"
+            android:layout_marginTop="259dp"
+            android:layout_toRightOf="@+id/left"/>
+
+
+
+
+        <ImageView
+            android:layout_width="18dp"
+            android:layout_height="18dp"
+            android:layout_marginStart="555dp"
+            android:layout_marginTop="30dp"
+            android:background="@drawable/new_add_star_05_2" />
+
+        <ImageView
+            android:layout_width="107dp"
+            android:layout_height="60dp"
+            android:background="@drawable/new_add_katong_05_2"
+            android:layout_marginTop="25dp"
+            android:layout_marginStart="440dp"/>
+
+
+        <ImageView
+            android:id="@+id/teching_1"
+            android:layout_width="118dp"
+            android:layout_height="80dp"
+            android:layout_marginTop="42dp"
+            android:layout_marginStart="14dp"
+            android:background="@color/white"
+            android:scaleType="centerCrop"/>
+        <ImageView
+            android:id="@+id/teching_4"
+            android:layout_width="118dp"
+            android:layout_height="80dp"
+            android:layout_marginTop="141dp"
+            android:layout_marginStart="14dp"
+            android:background="@color/white"
+            android:scaleType="centerCrop"/>
+        <ImageView
+            android:id="@+id/teching_7"
+            android:layout_width="118dp"
+            android:layout_height="80dp"
+            android:layout_marginTop="240dp"
+            android:layout_marginStart="14dp"
+            android:background="@color/white"
+            android:scaleType="centerCrop"/>
+        <ImageView
+            android:id="@+id/teching_2"
+            android:layout_width="118dp"
+            android:layout_height="80dp"
+            android:layout_marginTop="42dp"
+            android:layout_marginStart="151dp"
+            android:background="@color/white"
+            android:scaleType="centerCrop"/>
+        <ImageView
+            android:id="@+id/teching_5"
+            android:layout_width="118dp"
+            android:layout_height="80dp"
+            android:layout_marginTop="141dp"
+            android:layout_marginStart="151dp"
+            android:background="@color/white"
+            android:scaleType="centerCrop"/>
+        <ImageView
+            android:id="@+id/teching_8"
+            android:layout_width="118dp"
+            android:layout_height="80dp"
+            android:layout_marginTop="240dp"
+            android:layout_marginStart="151dp"
+            android:background="@color/white"
+            android:scaleType="centerCrop"/>
+
+        <ImageView
+            android:id="@+id/teching_3"
+            android:layout_width="118dp"
+            android:layout_height="80dp"
+            android:layout_marginTop="42dp"
+            android:layout_marginStart="288dp"
+            android:background="@color/white"
+            android:scaleType="centerCrop"/>
+        <ImageView
+            android:id="@+id/teching_6"
+            android:layout_width="118dp"
+            android:layout_height="80dp"
+            android:layout_marginTop="141dp"
+            android:layout_marginStart="288dp"
+            android:background="@color/white"
+            android:scaleType="centerCrop"/>
+
+
+        <ImageView
+            android:id="@+id/teching_9"
+            android:layout_width="118dp"
+            android:layout_height="80dp"
+            android:layout_marginTop="240dp"
+            android:layout_marginStart="288dp"
+            android:background="@color/white"
+            android:scaleType="centerCrop"/>
+
+
+
+    </RelativeLayout>
+
+</FrameLayout>

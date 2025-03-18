@@ -1,0 +1,327 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".bihua">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/body_05_4"
+        android:layout_marginTop="25dp">
+
+
+        <ImageView
+            android:layout_width="543dp"
+            android:layout_height="253dp"
+            android:background="@drawable/body2_05_4_1_1"
+            android:layout_marginTop="41dp"
+            android:layout_marginStart="17dp"/>
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/close_icon_05_4"
+            android:layout_marginTop="31dp"
+            android:layout_marginStart="540dp"/>
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/next_button_05_4"
+            android:layout_marginTop="300dp"
+            android:layout_marginStart="493dp"/>
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/next_button_05_4"
+            android:layout_marginTop="300dp"
+            android:layout_marginStart="400dp"/>
+
+
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/b_not_selected_05_4_2_1"
+            android:layout_marginTop="91dp"
+            android:layout_marginStart="51dp"/>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/b_selected_05_4_2_1"
+            android:layout_marginTop="91dp"
+            android:layout_marginStart="51dp"/>
+
+
+        <ImageView
+            android:id="@+id/bihua_a_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/b_not_selected_05_4_2_1"
+            android:layout_marginTop="91dp"
+            android:layout_marginStart="176dp"/>
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/b_selected_05_4_2_1"
+            android:layout_marginTop="91dp"
+            android:layout_marginStart="176dp"/>
+        <ImageView
+            android:id="@+id/bihua_a_2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/b_not_selected_05_4_2_1"
+            android:layout_marginTop="91dp"
+            android:layout_marginStart="299dp"/>
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/b_selected_05_4_2_1"
+            android:layout_marginTop="91dp"
+            android:layout_marginStart="299dp"/>
+
+        <ImageView
+            android:id="@+id/bihua_a_3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/b_not_selected_05_4_2_1"
+            android:layout_marginTop="91dp"
+            android:layout_marginStart="422dp"/>
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/b_selected_05_4_2_1"
+            android:layout_marginTop="91dp"
+            android:layout_marginStart="422dp"/>
+
+
+
+
+        <ImageView
+            android:id="@+id/bihua_b_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/s_not_selected_05_4_2_1"
+            android:layout_marginTop="221dp"
+            android:layout_marginStart="106dp"/>
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/s_selected_05_4_2_1"
+            android:layout_marginTop="221dp"
+            android:layout_marginStart="106dp"/>
+
+
+
+
+
+        <ImageView
+            android:id="@+id/bihua_b_2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/s_not_selected_05_4_2_1"
+            android:layout_marginTop="221dp"
+            android:layout_marginStart="208dp"/>
+
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/s_selected_05_4_2_1"
+            android:layout_marginTop="221dp"
+            android:layout_marginStart="208dp"/>
+
+
+
+
+        <ImageView
+            android:id="@+id/bihua_b_3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/s_not_selected_05_4_2_1"
+            android:layout_marginTop="221dp"
+            android:layout_marginStart="310dp"/>
+
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/s_selected_05_4_2_1"
+            android:layout_marginTop="221dp"
+            android:layout_marginStart="310dp"/>
+
+
+
+        <ImageView
+            android:id="@+id/bihua_b_4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/s_not_selected_05_4_2_1"
+            android:layout_marginTop="221dp"
+            android:layout_marginStart="412dp"/>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/s_selected_05_4_2_1"
+            android:layout_marginTop="221dp"
+            android:layout_marginStart="412dp"/>
+
+
+
+
+
+
+        <ImageView
+            android:id="@+id/bihua_line_1_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/line_not_ju_1_1"
+            android:layout_marginTop="141dp"
+            android:layout_marginStart="101dp"/>
+
+        <ImageView
+            android:id="@+id/bihua_line_1_2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/line_not_ju_1_2"
+            android:layout_marginTop="141dp"
+            android:layout_marginStart="101dp"/>
+        <ImageView
+            android:id="@+id/bihua_line_1_3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/line_not_ju_1_3"
+            android:layout_marginTop="141dp"
+            android:layout_marginStart="101dp"/>
+        <ImageView
+            android:id="@+id/bihua_line_1_4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/line_not_ju_1_4"
+            android:layout_marginTop="141dp"
+            android:layout_marginStart="101dp"/>
+
+        <ImageView
+            android:id="@+id/bihua_line_2_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/line_not_ju_2_1"
+            android:layout_marginTop="141dp"
+            android:layout_marginStart="136dp"/>
+
+        <ImageView
+            android:id="@+id/bihua_line_2_2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/line_not_ju_2_2"
+            android:layout_marginTop="141dp"
+            android:layout_marginStart="226dp"/>
+        <ImageView
+            android:id="@+id/bihua_line_2_3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/line_not_ju_2_3"
+            android:layout_marginTop="141dp"
+            android:layout_marginStart="226dp"/>
+        <ImageView
+            android:id="@+id/bihua_line_2_4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/line_not_ju_2_4"
+            android:layout_marginTop="141dp"
+            android:layout_marginStart="226dp"/>
+
+
+        <ImageView
+            android:id="@+id/bihua_line_3_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/line_not_ju_3_1"
+            android:layout_marginTop="141dp"
+            android:layout_marginStart="136dp"/>
+        <ImageView
+            android:id="@+id/bihua_line_3_2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/line_not_ju_3_2"
+            android:layout_marginTop="141dp"
+            android:layout_marginStart="238dp"/>
+        <ImageView
+            android:id="@+id/bihua_line_3_3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/line_not_ju_3_3"
+            android:layout_marginTop="141dp"
+            android:layout_marginStart="340dp"/>
+        <ImageView
+            android:id="@+id/bihua_line_3_4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/line_not_ju_3_4"
+            android:layout_marginTop="141dp"
+            android:layout_marginStart="351dp"/>
+
+
+
+
+        <ImageView
+            android:id="@+id/bihua_line_4_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/line_not_ju_4_1"
+            android:layout_marginTop="141dp"
+            android:layout_marginStart="136dp"/>
+
+        <ImageView
+            android:id="@+id/bihua_line_4_2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/line_not_ju_4_2"
+            android:layout_marginTop="141dp"
+            android:layout_marginStart="238dp"/>
+        <ImageView
+            android:id="@+id/bihua_line_4_3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/line_not_ju_4_3"
+            android:layout_marginTop="141dp"
+            android:layout_marginStart="340dp"/>
+        <ImageView
+            android:id="@+id/bihua_line_4_4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/line_not_ju_4_4"
+            android:layout_marginTop="141dp"
+            android:layout_marginStart="442dp"/>
+
+        <include
+            android:id="@+id/bihua_tanchuang"
+            layout="@layout/tanchuang"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="58dp"
+            android:layout_marginStart="408dp" />
+
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/pace_05_4"
+            android:layout_marginTop="58dp"
+            android:layout_marginStart="481dp"/>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/xiala_05_4"
+            android:layout_marginTop="73dp"
+            android:layout_marginStart="503dp"/>
+    </RelativeLayout>
+
+
+</RelativeLayout>

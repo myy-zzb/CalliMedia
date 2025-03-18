@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".show_know">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        >
+        <ImageView
+            android:layout_marginTop="25dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/ai_bg"/>
+        <ImageView
+            android:layout_marginTop="25dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/ai_left"/>
+
+        <ImageView
+            android:layout_width="26dp"
+            android:layout_height="26dp"
+            android:background="@drawable/icon_ai_05_6"
+            android:layout_marginTop="40dp"
+            android:layout_marginStart="8dp" />
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/search_05_6"
+            android:layout_marginTop="81dp"
+            />
+
+
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/inquiry_box_05_6"
+            android:layout_marginTop="234dp"
+            android:layout_marginStart="166dp"/>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/xian"
+            android:layout_marginTop="265.5dp"
+            android:layout_marginStart="175dp"
+            />
+
+
+        <EditText
+            android:id="@+id/message_fasong"
+            android:layout_width="370dp"
+            android:layout_height="55dp"
+            android:layout_marginStart="166dp"
+            android:layout_marginTop="265dp"
+            android:background="@drawable/bg_duihua_05_6"
+            android:gravity="top|start"
+            android:hint="请输入"
+            android:padding="8dp"
+            android:textSize="8sp" />
+
+        <ImageButton
+            android:layout_width="29.9dp"
+            android:layout_height="11dp"
+            android:background="@drawable/new_add_file_05_6_1"
+            android:layout_marginTop="239dp"
+            android:layout_marginStart="175dp"/>
+
+
+        <ImageButton
+            android:layout_width="30.6dp"
+            android:layout_height="11dp"
+            android:background="@drawable/new_add_picture_05_6_1"
+            android:layout_marginTop="239dp"
+            android:layout_marginStart="237dp"/>
+
+
+        <ImageButton
+            android:id="@+id/chat_release"
+            android:layout_width="18dp"
+            android:layout_height="12dp"
+            android:layout_marginStart="500dp"
+            android:layout_marginTop="301dp"
+            android:background="@drawable/release_05_6" />
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/chat_item"
+            android:layout_width="370dp"
+            android:layout_height="168dp"
+            android:layout_marginTop="66dp"
+            android:layout_marginStart="166dp"/>
+
+
+    </RelativeLayout>
+
+
+</FrameLayout>

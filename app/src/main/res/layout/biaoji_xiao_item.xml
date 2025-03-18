@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+    <LinearLayout
+        android:id="@+id/item_bg"
+        android:paddingTop="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        tools:ignore="MissingConstraints"
+        android:paddingStart="5dp"
+        android:paddingRight="5dp">
+
+        <ImageView
+            android:id="@+id/biaoji_1_tx"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:background="@drawable/tx_2"/>
+
+        <TextView
+            android:id="@+id/biaoji_1_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="10sp"
+            android:textColor="#ff000000"
+            android:text="李李"
+            android:gravity="center"
+            android:layout_gravity="center_horizontal"
+            android:paddingBottom="10dp"/>
+
+
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

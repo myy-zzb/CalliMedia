@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Class_list">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/new_add_bg2_05"
+        >
+        <ImageView
+            android:layout_width="111dp"
+            android:layout_height="38.9dp"
+            android:layout_marginStart="12dp"
+            android:layout_marginTop="8dp"
+            android:background="@drawable/profile_all" />
+
+        <ImageButton
+            android:id="@+id/class_list_return"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginStart="740dp"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/icon_return" />
+
+
+        <ImageView
+            android:layout_width="578dp"
+            android:layout_height="312dp"
+            android:layout_marginTop="23dp"
+            android:layout_marginStart="141dp"
+            android:src="@drawable/bengkuile"
+            android:alpha="0.8"/>
+
+
+        <ImageView
+            android:layout_width="397dp"
+            android:layout_height="280dp"
+            android:background="#E7E2D0"
+            android:layout_marginTop="55dp"
+            android:layout_marginStart="225dp"/>
+        
+        <GridView
+            android:id="@+id/banji_grid"
+            android:background="#E7E2D0"
+            android:layout_width="397dp"
+            android:layout_height="280dp"
+            android:layout_marginTop="55dp"
+            android:layout_marginStart="225dp"
+            android:numColumns="6"/>
+
+        <ImageButton
+            android:layout_width="79dp"
+            android:layout_height="43dp"
+            android:layout_marginTop="56.5dp"
+            android:layout_marginStart="625dp"
+            android:background="@drawable/search_student_06_1_1"/>
+
+        <ImageButton
+            android:id="@+id/create_class"
+            android:layout_width="79dp"
+            android:layout_height="43dp"
+            android:background="@drawable/class_set_up_06_1_1"
+            android:layout_marginTop="107.5dp"
+            android:layout_marginStart="625dp"/>
+
+        <ImageButton
+            android:id="@+id/list_qiehuan"
+            android:layout_width="79dp"
+            android:layout_height="43dp"
+            android:layout_marginTop="158.5dp"
+            android:layout_marginStart="625dp"
+            android:background="@drawable/class_seating"/>
+
+
+        <ImageView
+            android:id="@+id/list_title"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_marginTop="23dp"
+            android:layout_marginStart="165dp"
+            android:background="@drawable/class_06_1_1"/>
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/class_list_re"
+            android:layout_width="wrap_content"
+            android:layout_height="224dp"
+            android:layout_marginTop="83dp"
+            android:layout_marginStart="141dp"/>
+
+
+    </RelativeLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

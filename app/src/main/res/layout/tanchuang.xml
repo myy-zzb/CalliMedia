@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:ignore="MissingConstraints">
+
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/tanchuang"/>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/tanchuang_bg"
+            android:layout_marginTop="37dp"/>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/tanchuang_bg"
+            android:layout_marginTop="63dp"/>
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/tanchuang_bg"
+            android:layout_marginTop="89dp"/>
+
+        <ImageView
+            android:id="@+id/shanghua"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/pull_up_05_4_1"
+            android:layout_marginTop="117dp"
+            android:layout_marginStart="59.3dp"/>
+
+        <ImageButton
+            android:id="@+id/timu1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/not_judged_num_05_4_1"
+            android:layout_marginTop="40dp"
+            android:layout_marginStart="9dp"/>
+
+        <ImageButton
+            android:id="@+id/timu2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/not_judged_num_05_4_1"
+            android:layout_marginTop="40dp"
+            android:layout_marginStart="38dp"/>
+        <ImageButton
+            android:id="@+id/timu3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/not_judged_num_05_4_1"
+            android:layout_marginTop="40dp"
+            android:layout_marginStart="67dp"/>
+        <ImageButton
+            android:id="@+id/timu4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/not_judged_num_05_4_1"
+            android:layout_marginTop="40dp"
+            android:layout_marginStart="96dp"/>
+
+        <ImageButton
+            android:id="@+id/timu5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/not_judged_num_05_4_1"
+            android:layout_marginTop="66dp"
+            android:layout_marginStart="9dp"/>
+
+        <ImageButton
+            android:id="@+id/timu6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/not_judged_num_05_4_1"
+            android:layout_marginTop="66dp"
+            android:layout_marginStart="38dp"/>
+        <ImageButton
+            android:id="@+id/timu7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/not_judged_num_05_4_1"
+            android:layout_marginTop="66dp"
+            android:layout_marginStart="67dp"/>
+        <ImageButton
+            android:id="@+id/timu8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/not_judged_num_05_4_1"
+            android:layout_marginTop="66dp"
+            android:layout_marginStart="96dp"/>
+
+        <ImageButton
+            android:id="@+id/timu9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/not_judged_num_05_4_1"
+            android:layout_marginTop="92dp"
+            android:layout_marginStart="9dp"/>
+
+        <ImageButton
+            android:id="@+id/timu10"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/not_judged_num_05_4_1"
+            android:layout_marginTop="92dp"
+            android:layout_marginStart="38dp"/>
+
+    </RelativeLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

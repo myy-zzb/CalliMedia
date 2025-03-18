@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Teaching_resources">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/new_add_bg2_05"
+        tools:layout_editor_absoluteX="34dp"
+        tools:layout_editor_absoluteY="0dp">
+
+        <ImageButton
+            android:id="@+id/Teaching_resources_return"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginStart="740dp"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/icon_return" />
+
+
+
+        <ImageView
+            android:layout_width="131dp"
+            android:layout_height="46dp"
+            android:background="@drawable/profile_all"
+            android:layout_marginTop="8dp"
+            android:layout_marginStart="12dp"/>
+
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/re_button"
+            android:layout_width="85dp"
+            android:layout_height="260dp"
+            android:layout_marginTop="81dp"
+            android:layout_marginStart="29dp"/>
+
+        <FrameLayout
+            android:id="@+id/teaching_fragment"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginStart="150dp"/>
+
+        <ImageView
+            android:id="@+id/title_bihua"
+            android:layout_width="138dp"
+            android:layout_height="34dp"
+            android:background="@drawable/bihua"
+            android:layout_marginTop="7dp"
+            android:layout_marginStart="361dp"/>
+
+
+        <ImageView
+            android:id="@+id/title_pipei"
+            android:layout_width="138dp"
+            android:layout_height="34dp"
+            android:background="@drawable/title_05_4_1"
+            android:layout_marginTop="7dp"
+            android:layout_marginStart="361dp"/>
+
+
+
+
+
+
+
+
+    </RelativeLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

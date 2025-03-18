@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".register2">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/bg0">
+
+
+        <ImageButton
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:id="@+id/back_button"
+            android:layout_marginTop="25dp"
+            android:layout_marginStart="25dp"
+            android:background="@drawable/icon_return"/>
+
+        <ImageView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/circle"
+            android:layout_marginTop="59dp"
+            android:layout_marginStart="371dp"/>
+
+        <EditText
+            android:id="@+id/res_ed1"
+            android:layout_width="216dp"
+            android:layout_height="28dp"
+            android:background="@drawable/tel_number_01_1"
+            android:layout_marginTop="149dp"
+            android:layout_marginStart="292dp"
+            android:paddingLeft="60dp"
+            android:singleLine="true"/>
+
+        <EditText
+            android:id="@+id/res_ed2"
+            android:layout_width="216dp"
+            android:layout_height="28dp"
+            android:background="@drawable/name_01_1"
+            android:layout_marginTop="197dp"
+            android:layout_marginStart="292dp"
+            android:singleLine="true"/>
+        <EditText
+            android:id="@+id/res_ed3"
+            android:layout_width="216dp"
+            android:layout_height="28dp"
+            android:background="@drawable/password_01_1"
+            android:layout_marginTop="245dp"
+            android:layout_marginStart="292dp"
+            android:singleLine="true"/>
+
+        <ImageButton
+            android:id="@+id/res_bt"
+            android:layout_width="67dp"
+            android:layout_height="30dp"
+            android:background="@drawable/asuure_button_01_1"
+            android:layout_marginTop="303dp"
+            android:layout_marginStart="527dp"/>
+
+
+
+
+
+
+    </RelativeLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

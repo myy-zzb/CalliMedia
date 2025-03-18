@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".biaoji_2">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:layout_width="430dp"
+            android:layout_height="32dp"/>
+
+
+        <ImageButton
+            android:id="@+id/biaoji_re_biaoyang"
+            android:layout_width="28dp"
+            android:layout_height="20dp"
+            android:background="@drawable/biaoyang1"
+            android:layout_marginTop="5dp"
+            android:layout_marginStart="19dp"
+            android:scaleType="fitXY"/>
+
+
+        <ImageButton
+            android:id="@+id/biaoji_re_daigaijin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/daigaijin1"
+            android:layout_marginTop="6dp"
+            android:layout_marginStart="79dp"
+            android:scaleType="fitXY"/>
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/biaoji_2_re"
+            android:layout_width="wrap_content"
+            android:layout_height="179dp"
+            android:layout_marginTop="32dp"/>
+
+    </RelativeLayout>
+
+</FrameLayout>

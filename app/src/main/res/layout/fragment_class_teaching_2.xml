@@ -1,0 +1,267 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Class_teaching_2">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        >
+        <ImageView
+            android:layout_marginTop="25dp"
+            android:layout_width="578dp"
+            android:layout_height="310dp"
+            android:background="@drawable/new_add_body_05_1_1_edit"/>
+        <ImageView
+            android:layout_marginTop="43dp"
+            android:layout_width="578dp"
+            android:layout_height="36dp"
+            android:background="@color/white" />
+
+        <ImageView
+            android:background="@drawable/body1"
+            android:layout_marginTop="19dp"
+            android:layout_width="578dp"
+            android:layout_height="24dp"/>
+
+
+        <ImageButton
+            android:id="@+id/teaching_return"
+            android:layout_width="11.9dp"
+            android:layout_height="9.7dp"
+            android:layout_marginStart="6dp"
+            android:layout_marginTop="28.8dp"
+            android:background="@drawable/icon_home_page" />
+
+        <ImageButton
+            android:id="@+id/teaching_bt_edit"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:background="@drawable/icon_edit"
+            android:layout_marginTop="45dp"
+            android:layout_marginStart="207dp"/>
+
+
+        <TextView
+            android:id="@+id/bianji"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/teaching_bt_edit"
+            android:layout_marginStart="209dp"
+            android:text="编辑"
+            android:textSize="8sp"
+            android:textColor="#748564"/>
+
+
+        <ImageButton
+            android:id="@+id/teaching_bt_view"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:background="@drawable/icon_view"
+            android:layout_marginTop="45dp"
+            android:layout_marginStart="277dp"/>
+
+
+
+        <TextView
+            android:id="@+id/xianshi"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/teaching_bt_view"
+            android:layout_marginStart="279dp"
+            android:text="查看"
+            android:textSize="8sp"
+            android:textColor="#748564"/>
+
+
+        <ImageButton
+            android:id="@+id/teaching_bt_add"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:background="@drawable/icon_add"
+            android:layout_marginTop="45dp"
+            android:layout_marginStart="347dp"/>
+
+        <TextView
+            android:id="@+id/tianjia"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/teaching_bt_edit"
+            android:layout_marginStart="349dp"
+            android:text="添加"
+            android:textSize="8sp"
+            android:textColor="#748564"/>
+
+
+        <ImageView
+            android:id="@+id/line_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/line_1"
+            android:layout_marginStart="41dp"
+            android:layout_marginTop="162dp"/>
+
+        <ImageView
+            android:id="@+id/line_2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/line_2"
+            android:layout_marginTop="162dp"
+            android:layout_marginStart="155dp"/>
+
+        <ImageView
+            android:id="@+id/line_3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/line_3"
+            android:layout_marginTop="185dp"
+            android:layout_marginStart="250dp"/>
+
+
+        <ImageView
+            android:id="@+id/line_4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/line_4"
+            android:layout_marginTop="135dp"
+            android:layout_marginStart="295dp"/>
+
+
+
+        <ImageView
+            android:id="@+id/line_5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/line_5"
+            android:layout_marginTop="135dp"
+            android:layout_marginStart="385dp"/>
+
+
+        <ImageView
+            android:id="@+id/line_6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/line_6"
+            android:layout_marginTop="135dp"
+            android:layout_marginStart="450dp"/>
+
+
+
+
+        <ImageButton
+            android:id="@+id/teaching_bt_1"
+            android:layout_width="56dp"
+            android:layout_height="45dp"
+            android:background="@drawable/vector_05_1"
+            android:layout_marginTop="145dp"
+            android:layout_marginStart="29dp"/>
+        <ImageButton
+            android:id="@+id/teaching_bt_2"
+            android:layout_width="56dp"
+            android:layout_height="45dp"
+            android:background="@drawable/vector_05_1"
+            android:layout_marginTop="251dp"
+            android:layout_marginStart="120dp"/>
+        <ImageButton
+            android:id="@+id/teaching_bt_3"
+            android:layout_width="56dp"
+            android:layout_height="45dp"
+            android:background="@drawable/vector_05_1"
+            android:layout_marginTop="157dp"
+            android:layout_marginStart="217dp"/>
+        <ImageButton
+            android:id="@+id/teaching_bt_4"
+            android:layout_width="56dp"
+            android:layout_height="45dp"
+            android:background="@drawable/vector_05_1"
+            android:layout_marginTop="250dp"
+            android:layout_marginStart="267dp"/>
+        <ImageButton
+            android:id="@+id/teaching_bt_5"
+            android:layout_width="56dp"
+            android:layout_height="45dp"
+            android:background="@drawable/vector_05_1"
+            android:layout_marginTop="100dp"
+            android:layout_marginStart="334dp"/>
+        <ImageButton
+            android:id="@+id/teaching_bt_6"
+            android:layout_width="56dp"
+            android:layout_height="45dp"
+            android:background="@drawable/vector_05_1"
+            android:layout_marginTop="220dp"
+            android:layout_marginStart="419dp"/>
+        <ImageButton
+            android:id="@+id/teaching_bt_7"
+            android:layout_width="56dp"
+            android:layout_height="45dp"
+            android:background="@drawable/vector_05_1"
+            android:layout_marginTop="107dp"
+            android:layout_marginStart="487dp"/>
+
+
+        <ImageButton
+            android:id="@+id/teaching_bt_edit_1"
+            android:layout_width="17dp"
+            android:layout_height="17dp"
+            android:background="@drawable/new_add_daoru_05_1_1"
+            android:layout_marginTop="121dp"
+            android:layout_marginStart="48dp"/>
+
+        <ImageButton
+            android:id="@+id/teaching_bt_edit_2"
+            android:layout_width="17dp"
+            android:layout_height="17dp"
+            android:background="@drawable/new_add_daoru_05_1_1"
+            android:layout_marginTop="226dp"
+            android:layout_marginStart="140dp"/>
+
+        <ImageButton
+            android:id="@+id/teaching_bt_edit_3"
+            android:layout_width="17dp"
+            android:layout_height="17dp"
+            android:background="@drawable/new_add_daoru_05_1_1"
+            android:layout_marginTop="130dp"
+            android:layout_marginStart="235dp"/>
+
+        <ImageButton
+            android:id="@+id/teaching_bt_edit_4"
+            android:layout_width="17dp"
+            android:layout_height="17dp"
+            android:background="@drawable/new_add_daoru_05_1_1"
+            android:layout_marginTop="224dp"
+            android:layout_marginStart="285dp"/>
+
+        <ImageButton
+            android:id="@+id/teaching_bt_edit_5"
+            android:layout_width="17dp"
+            android:layout_height="17dp"
+            android:layout_marginStart="353dp"
+            android:layout_marginTop="81dp"
+            android:background="@drawable/new_add_daoru_05_1_1" />
+
+        <ImageButton
+            android:id="@+id/teaching_bt_edit_6"
+            android:layout_width="17dp"
+            android:layout_height="17dp"
+            android:background="@drawable/new_add_daoru_05_1_1"
+            android:layout_marginTop="196dp"
+            android:layout_marginStart="438dp"/>
+
+        <ImageButton
+            android:id="@+id/teaching_bt_edit_7"
+            android:layout_width="17dp"
+            android:layout_height="17dp"
+            android:background="@drawable/new_add_daoru_05_1_1"
+            android:layout_marginTop="81dp"
+            android:layout_marginStart="506dp"/>
+
+
+
+<!--        <ImageView-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:id="@+id/shishi"/>-->
+    </RelativeLayout>
+</FrameLayout>

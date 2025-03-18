@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Student_biaoji">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/new_add_bg2_05"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="0dp">
+
+        <ImageView
+            android:layout_width="111dp"
+            android:layout_height="38.9dp"
+            android:layout_marginStart="12dp"
+            android:layout_marginTop="8dp"
+            android:background="@drawable/profile_all" />
+
+        <ImageButton
+            android:id="@+id/biaoji_return"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginStart="740dp"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/icon_return" />
+
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="185dp"
+            android:layout_marginTop="25dp"
+            android:background="@drawable/body_06_3" />
+
+        <ImageView
+            android:layout_width="430dp"
+            android:layout_height="47dp"
+            android:layout_marginStart="185dp"
+            android:layout_marginTop="25dp"
+            android:background="@drawable/titlexueshengbiaoji_06_3" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="185dp"
+            android:layout_marginTop="283dp"
+            android:background="@drawable/dibu" />
+
+
+        <ImageView
+            android:layout_width="34dp"
+            android:layout_height="34dp"
+            android:layout_marginStart="589dp"
+            android:layout_marginTop="18dp"
+            android:background="@drawable/jifen_return" />
+
+        <FrameLayout
+            android:id="@+id/biaoji_fra"
+            android:layout_width="wrap_content"
+            android:layout_height="211dp"
+            android:layout_marginStart="185dp"
+            android:layout_marginTop="72dp" />
+
+
+        <ImageButton
+            android:layout_width="131dp"
+            android:layout_height="34dp"
+            android:layout_marginStart="203.5dp"
+            android:layout_marginTop="292dp"
+            android:background="@drawable/dianpingduoren_bef"
+            android:scaleType="fitXY" />
+
+
+        <ImageButton
+            android:id="@+id/biaoji_qiehuan"
+            android:layout_width="131dp"
+            android:layout_height="34dp"
+            android:layout_marginStart="334.5dp"
+            android:layout_marginTop="292dp"
+            android:background="@drawable/qiehuanchakan_bef"
+            android:scaleType="fitXY" />
+
+
+        <ImageButton
+            android:id="@+id/chaxun"
+            android:layout_width="131dp"
+            android:layout_height="34dp"
+            android:layout_marginStart="465.5dp"
+            android:layout_marginTop="292dp"
+            android:background="@drawable/chaxunxuesheng_bef"
+            android:scaleType="fitXY" />
+
+
+    </RelativeLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/too ls"
+    xmlns:tools2="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        tools:ignore="MissingConstraints"
+        tools2:ignore="MissingConstraints"
+        android:paddingBottom="5dp">
+
+        <ImageView
+            android:id="@+id/xunzhang_iv"
+            android:layout_width="130dp"
+            android:layout_height="110dp"
+            android:background="#ECE5E4"/>
+        <ImageView
+            android:layout_width="110dp"
+            android:layout_height="110dp"
+            android:layout_marginStart="130dp"
+            android:background="#E3D9D6"/>
+
+        <LinearLayout
+            android:layout_width="110dp"
+            android:layout_height="110dp"
+            android:layout_marginStart="130dp"
+            android:gravity="center">
+
+
+
+            <TextView
+                android:id="@+id/xunzhang_miaoshu"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="miaoshu"
+                android:textSize="12sp"
+                android:textColor="@color/black"/>
+
+
+        </LinearLayout>
+
+
+
+        <TextView
+            android:id="@+id/huodeqingkuang_iv"
+            android:layout_marginStart="240dp"
+            android:layout_width="280dp"
+            android:layout_height="110dp"
+            android:background="#ECE2DE"
+            android:textColor="@color/black"/>
+
+
+
+
+    </RelativeLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
