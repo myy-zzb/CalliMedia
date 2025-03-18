@@ -4,5 +4,4 @@
 队员2：盛资程 <br>
 获奖证书:
 
-![Uploading 多媒体省三.jpg…]()
-
+![多媒体省三](https://github.com/user-attachments/assets/f2d1e035-2c0b-4883-98db-f0724a0d96d6)
